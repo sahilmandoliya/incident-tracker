@@ -29,7 +29,7 @@ public class IncidentController {
             @RequestParam(required = false) String serviceName
     ) {
 
-        Specification spec =
+        Specification<com.sahil.incidenttracker.backend.entity.Incident> spec =
                 Specification.where(IncidentSpecification.titleContains(search))
                         .and(IncidentSpecification.hasStatus(status))
                         .and(IncidentSpecification.hasSeverity(severity))
