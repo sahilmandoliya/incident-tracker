@@ -118,5 +118,3 @@ With more time, I would implement:
 5.  **Analytics Dashboard**: Visual charts showing "Incidents per Service" or "Mean Time to Resolution (MTTR)".
 
 ---
-
-**Developed for Zeotap Assignment**
