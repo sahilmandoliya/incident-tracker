@@ -24,7 +24,7 @@ PostgreSQL (Managed on Render)
 - **Incident Details:** View and update incident status.
 - **Data Seeding:** Automated seeder populates ~200 records on startup.
 
-## 🛠️ Tech Stack & Decisions
+## 🛠️ Tech Stack
 
 - **Frontend:** React, TypeScript, Vite, TanStack Query (caching/state)
 - **Backend:** Java 21, Spring Boot 3, Spring Data JPA
@@ -82,5 +82,3 @@ npm run dev
 - **Real-time Updates:** Implement WebSockets to push new incidents to the dashboard instantly without refreshing.
 - **Audit Logging:** dedicated table to track state transitions (e.g., who changed status from OPEN to RESOLVED).
 - **E2E Testing:** Add Cypress/Playwright tests for critical user flows.
-
-Thank you !
