@@ -1,0 +1,102 @@
+/* Enhanced styles for IncidentDetailModal */
+.detail h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.detail .service-tag {
+  display: inline-block;
+  font-size: 12px;
+  color: var(--text-secondary);
+  background: var(--bg-body);
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.field p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-main);
+  padding: 10px 0;
+  /* Align visually with inputs */
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  background: var(--bg-surface);
+  color: var(--text-main);
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.field textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.actions {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.actions button {
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: var(--bg-body);
+  border-color: #cbd5e1;
+}
+
+.actions button.primary-btn {
+  background: var(--primary);
+  color: white;
+  border: 1px solid transparent;
+}
+
+.actions button.primary-btn:hover {
+  background: var(--primary-hover);
+}

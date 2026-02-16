@@ -1,0 +1,105 @@
+/* Enhanced styles for IncidentTable */
+.table-container {
+  overflow-x: auto;
+  /* Handle horizontal scroll for small tables */
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  /* CRITICAL: Fixed layout to prevent shifts */
+}
+
+th,
+td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  font-size: 14px;
+  color: var(--text-main);
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th {
+  background-color: #f8fafc;
+  /* Slate 50 */
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 48px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  user-select: none;
+}
+
+th:hover {
+  background-color: #f1f5f9;
+  /* Slate 100 */
+  color: var(--text-main);
+}
+
+tr {
+  transition: background-color 0.15s ease;
+}
+
+tr:hover {
+  background-color: #f8fafc;
+  /* Slate 50 */
+  cursor: pointer;
+}
+
+/* Widths to sum to 100% */
+th:nth-child(1) {
+  width: 25%;
+}
+
+/* Title - wider */
+th:nth-child(2) {
+  width: 15%;
+}
+
+/* Service */
+th:nth-child(3) {
+  width: 12%;
+}
+
+/* Severity */
+th:nth-child(4) {
+  width: 15%;
+}
+
+/* Status */
+th:nth-child(5) {
+  width: 18%;
+}
+
+/* Created At */
+th:nth-child(6) {
+  width: 15%;
+}
+
+/* Owner */
+
+/* Remove legacy badge styles if any remained here */
+.badge {
+  /* Inherits from common.css */
+}
+
+@media (max-width: 768px) {
+
+  th,
+  td {
+    padding: 12px;
+  }
+}
