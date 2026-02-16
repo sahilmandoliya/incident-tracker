@@ -1,5 +1,5 @@
 import type { Incident } from "../../types/incident";
-import StatusBadge from "../common/StatusBadge"; // Import the StatusBadge component
+import StatusBadge from "../common/StatusBadge";
 import "./IncidentTable.css";
 
 export default function IncidentTable({

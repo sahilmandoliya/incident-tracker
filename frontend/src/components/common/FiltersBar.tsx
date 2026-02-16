@@ -63,7 +63,7 @@ export default function FiltersBar({ search, setSearch, onFilterApply }: Filters
         </select>
       </div>
 
-      <div className="row">
+      <div className="row search-row">
         <input
           placeholder="Search..."
           value={search}

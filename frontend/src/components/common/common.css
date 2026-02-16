@@ -73,6 +73,22 @@
   background: #e2e8f0;
 }
 
+/* Search Row Specifics */
+.search-row {
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-row input {
+  width: 100%;
+}
+
+.search-row .filter-btn {
+  white-space: nowrap;
+}
+
 /* ===== MODAL SYSTEM ===== */
 .modal-overlay {
   position: fixed;
