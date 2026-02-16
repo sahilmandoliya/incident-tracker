@@ -6,15 +6,12 @@
     margin-top: 24px;
     padding-top: 20px;
     padding-bottom: 24px;
-    /* Added spacing from bottom */
     border-top: 1px solid var(--border);
     flex-wrap: wrap;
-    /* Prevent overflow on small screens */
 }
 
 .pagination-btn {
     display: inline-flex;
-    /* Changed from flex to inline-flex */
     align-items: center;
     justify-content: center;
     min-width: 36px;
@@ -25,15 +22,12 @@
     font-weight: 500;
     color: var(--text-secondary);
     background-color: #ffffff;
-    /* Ensure white background */
     border: 1px solid var(--border);
-    /* Add subtle border by default */
     border-radius: var(--radius-md);
     cursor: pointer;
     transition: all 0.2s ease;
     user-select: none;
     line-height: 1;
-    /* Fix vertical alignment */
 }
 
 .pagination-btn:hover:not(:disabled) {
@@ -51,7 +45,6 @@
     opacity: 0.5;
     cursor: not-allowed;
     background-color: #f1f5f9;
-    /* Visual disabled state */
     border-color: transparent;
 }
 
