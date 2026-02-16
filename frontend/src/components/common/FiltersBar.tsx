@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./common.css";
 import type { IncidentStatus, ServiceType, Severity } from "../../types/incident";
 
