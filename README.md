@@ -1,10 +1,5 @@
 
-# Sahil Mandoliya (Incident Tracker - Software Engineer Assignment)
-
-## 🔗 Submission Links
-
-**GitHub Repository:**
-[https://github.com/sahilmandoliya/incident-tracker](https://github.com/sahilmandoliya/incident-tracker)
+# Incident Tracker
 
 **Live Demo (Frontend - Vercel):**
 [https://incident-tracker-topaz.vercel.app](https://incident-tracker-topaz.vercel.app)
